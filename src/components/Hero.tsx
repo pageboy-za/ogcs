@@ -111,7 +111,7 @@ export default function Example() {
                   href="#"
                   className="rounded-md bg-olive-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-olive-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
                 >
-                  Get started
+                  Sign up to hear more
                 </a>
                 <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
                   Learn more <span aria-hidden="true">→</span>
