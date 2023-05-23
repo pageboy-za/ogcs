@@ -1,29 +1,31 @@
-import { BuildingLibraryIcon, ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+
+import { FaBible, FaSchool, FaChalkboardTeacher, FaPenAlt } from "react-icons/fa";
+
 
 const features = [
   {
     name: 'Jesus First',
     description:
       'Jesus First, always.  Jesus is the center of everything we do.  We are a Christian school and we are proud of it.',
-    icon: BuildingLibraryIcon,
+    icon: FaBible,
   },
   {
-    name: 'SSL certificates',
+    name: 'Quality Education',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+      'We are determined to provide the best education possible.  We are constantly improving our curriculum and our teaching methods to ensure that our students are getting the best education possible.',
+    icon: FaSchool,
   },
   {
-    name: 'Simple queues',
+    name: 'Personal Education',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+      'Becase we are a small school, we are able to provide a more personal education.  We are able to provide more one-on-one time with our students, and we are able to provide a more personal experience for our students.',
+    icon: FaChalkboardTeacher,
   },
   {
-    name: 'Advanced security',
+    name: 'Primary Education',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: FingerPrintIcon,
+      'Since the school is just starting we will start with primary education.  We will add more grades as we grow.',
+    icon: FaPenAlt,
   },
 ]
 
@@ -32,13 +34,12 @@ export default function About() {
     <div className="py-24 bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-olive-600">Deploy faster</h2>
+          <h2 className="text-base font-semibold leading-7 text-olive-500">Personal, Christ Centered Educationx</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+            Join us in our mission to provide a personal, Christ centered education.
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            More about us ...
           </p>
         </div>
         <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -46,7 +47,7 @@ export default function About() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 rounded-lg bg-olive-600">
+                  <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 rounded-lg bg-olive-500">
                     <feature.icon className="w-6 h-6 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}
