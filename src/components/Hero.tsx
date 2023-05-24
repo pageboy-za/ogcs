@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 
 const navigation = [
-  { name: 'About', href: '#' },
+  { name: 'About', href: '#about' },
   { name: 'Vision', href: '#' },
   { name: 'Support Us', href: '#' }
 ]
@@ -20,12 +20,12 @@ export default function Example() {
         <nav className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Olive Grove Christian School</span>
               <Image
                   alt="Olive Grove Christian School"
-                  className="w-auto h-30"
-                  width={300}
-                  height={300}
+                  className="w-auto h-20"
+                  width={250}
+                  height={250}
                   src={'/images/olive-grove-sml.png'}
                 />
             </a>
@@ -59,8 +59,8 @@ export default function Example() {
                  <Image
                   alt="Olive Grove Christian School"
                   className="w-auto h-8"
-                  width={250}
-                  height={250}
+                  width={25}
+                  height={25}
                   src={'/images/olive-grove-sml.png'}
                 />
               </a>
@@ -111,10 +111,10 @@ export default function Example() {
                   href="#"
                   className="rounded-md bg-olive-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-olive-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
                 >
-                  Sign up to hear more
+                 Follow our journey
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  Learn more <span aria-hidden="true">→</span>
+                <a href="/#about" className="text-sm font-semibold leading-6 text-gray-900">
+                  Read more <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>

@@ -31,7 +31,7 @@ const features = [
 
 export default function About() {
   return (
-    <div className="py-24 bg-white sm:py-32">
+    <div id="about" className="py-24 bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-olive-500">Personal, Christ Centered Educationx</h2>
