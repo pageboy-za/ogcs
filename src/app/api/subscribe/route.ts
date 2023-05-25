@@ -11,6 +11,6 @@ const supabase = createClient( supabaseUrl, supabaseKey!);
     const {name, email} = await request.json();
   
     const {data} = await supabase.from("mailingList").insert({name, email});
-    return NextResponse.redirect('/?success=true');
+    return NextResponse.redirect('/');
   }
  
