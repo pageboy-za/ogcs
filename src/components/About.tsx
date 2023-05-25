@@ -1,7 +1,6 @@
 
 import { FaBible, FaSchool, FaChalkboardTeacher, FaPenAlt } from "react-icons/fa";
 
-
 const features = [
   {
     name: 'Jesus First',
@@ -39,7 +38,7 @@ export default function About() {
             Join us in our mission to provide a personal, Christ centered education.
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            More about us ...
+            “You shall teach them diligently to your children, and shall talk of them when you sit in your house, when you walk by the way, when you lie down, and when you rise up.”  <span className="font-semibold">Deuteronomy 6:7</span> 
           </p>
         </div>
         <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">

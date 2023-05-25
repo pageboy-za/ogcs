@@ -7,15 +7,15 @@ import Image from 'next/image'
 
 const navigation = [
   { name: 'About', href: '#about' },
-  { name: 'Vision', href: '#' },
+  { name: 'Vision', href: '#vision' },
   { name: 'Support Us', href: '#' }
 ]
 
-export default function Example() {
+export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div id="top" className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -108,7 +108,7 @@ export default function Example() {
               </p>
               <div className="flex items-center mt-10 gap-x-6">
                 <a
-                  href="#"
+                  href="/#newsletter"
                   className="rounded-md bg-olive-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-olive-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-olive-600"
                 >
                  Follow our journey
