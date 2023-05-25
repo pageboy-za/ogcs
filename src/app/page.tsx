@@ -3,6 +3,11 @@ import About from '@/components/About'
 import Footer from '@/components/Footer'
 import Newsletter from '@/components/Newsletter'
 import Vision from '@/components/Vision'
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Olive Grove Christian School',
+};
 
 export default function Home() {
   return (

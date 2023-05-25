@@ -1,13 +1,14 @@
 "use client"
 
+import { json } from "node:stream/consumers";
 import { FormEvent } from "react";
 
 const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        const {name, email} = Object.fromEntries (new FormData(e.currentTarget)) ;
+        const {fullname, email} = Object.fromEntries (new FormData(e.currentTarget)) ;
         await fetch("api/subscribe", {
             method: "post",
-            body: JSON.stringify({name, email})
+            body: JSON.stringify({fullname, email})
         });
     };
 
@@ -21,16 +22,16 @@ export default function Newsletter() {
           <p className="inline text-base sm:block lg:inline xl:block">Sign up for our newsletter.</p>
         </div>
 
-                <form onSubmit={handleSubmit} className="w-full max-w-md lg:col-span-5 lg:pt-2">
+                <form onSubmit={handleSubmit} method="POST" className="w-full max-w-md lg:col-span-5 lg:pt-2">
                     <div className="flex gap-x-4">
                         <label htmlFor="full-name" className="sr-only">
                         Full name
                         </label>
                         <input
-                        id="full-name"
-                        name="full-name"
+                        id="name"
+                        name="fullname"
                         type="text"
-                        autoComplete="full-name"
+                        autoComplete="name"
                         required
                         className="min-w-0 flex-auto rounded-md border-0 bg-white/10 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-white/75 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
                         placeholder="Enter your Full Name"
