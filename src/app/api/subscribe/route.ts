@@ -10,7 +10,7 @@ const supabase = createClient( supabaseUrl, supabaseKey!);
   export async function POST(request:Request) {
     const {name, email} = await request.json();
   
-    const {data} = await supabase.from("mailingList").insert({name, email});
-    return NextResponse.redirect('/');
+    const {data, error} = await supabase.from("mailingList").insert([{name: name, email: email}]);
+    return NextResponse.redirect(new URL('/', request.url));
   }
  
