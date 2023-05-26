@@ -16,7 +16,7 @@ const supabase = createClient( supabaseUrl, supabaseKey!);
     console.log(data);
     console.log(error);
     console.log('Success!');
+    return NextResponse.json({ res: 'Success!' });
 
-    // return NextResponse.redirect('303', new URL('/?success', request.url));
   }
  
