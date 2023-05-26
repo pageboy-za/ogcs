@@ -9,12 +9,14 @@ const supabase = createClient( supabaseUrl, supabaseKey!);
 
   export async function POST(request:Request) {
     const {fullname, email} = await request.json();
-    console.log(fullname);
-    console.log(email);
+    // console.log(fullname);
+    // console.log(email);
     const timestamp = new Date().toISOString();
-    const {data, error} = await supabase.from("mailingList").insert([{created_at: timestamp, name: fullname, email: email}]).select();
+    const {data, error} = await supabase.from("mailingList").insert([{created_at: timestamp, name: fullname, email: email}]);
     console.log(data);
     console.log(error);
-    return NextResponse.redirect(new URL('/?success', request.url));
+    console.log('Success!');
+    return NextResponse.rewrite('/');
+    // return NextResponse.redirect('303', new URL('/?success', request.url));
   }
  
