@@ -20,12 +20,6 @@ const features = [
       'Becase we are a small school, we are able to provide a more personal education.  We are able to provide more one-on-one time with our students, and we are able to provide a more personal experience for our students.',
     icon: FaChalkboardTeacher,
   },
-  {
-    name: 'Primary Education',
-    description:
-      'Since the school is just starting we will start with primary education.  We will add more grades as we grow.',
-    icon: FaPenAlt,
-  },
 ]
 
 export default function About() {
@@ -33,7 +27,7 @@ export default function About() {
     <div id="about" className="py-24 bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-olive-500">Personal, Christ Centered Educationx</h2>
+          <h2 className="text-base font-semibold leading-7 text-olive-500">Personal, Christ Centered Education</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Join us in our mission to provide a personal, Christ centered education.
           </p>

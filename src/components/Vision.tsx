@@ -47,7 +47,7 @@ export default function Vision() {
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="flex-none w-5 h-5 mt-1 text-olive-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
+                    <strong className="font-semibold text-gray-900">Priortising Children</strong> Ac tincidunt sapien
                     vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                   </span>
                 </li>
