@@ -79,7 +79,7 @@ export default function Newsletter() {
                 className="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-olive-600 shadow-sm hover:bg-olive-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 disabled={loading} // Disable the button when loading is true
               >
-                {loading ? "Submitting..." : "Subscribe"}
+                {loading ? "Subscibing you..." : "Subscribe"}
               </button>
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-300">

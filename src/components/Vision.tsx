@@ -11,7 +11,7 @@ export default function Vision() {
               className="absolute inset-0 object-cover w-full h-full rounded-r-2xl bg-gray-50"
               height={3413}
                 width={2560}
-              src="/images/photo-1663866702581-a9712aed5c93.avif"
+              src="/images/photo-1663866702581-a9712aed5c93.webp"
               alt=""
             />
           </div>
@@ -25,7 +25,7 @@ export default function Vision() {
             </p>
             <div className="max-w-xl mt-10 text-base leading-7 text-gray-700 lg:max-w-none">
               <p>
-                To Glorify God through planting a Christ Centred school in Cambridge/Cambridgeshire. The desire is to have a school which is built upon the word of God, where Jesus is spoken of, adored and worshiped unashamedly. 
+                To glorify God through planting a Christ centred school in Cambridge/Cambridgeshire. The desire is to have a school which is built upon the word of God, where Jesus is spoken of, adored and worshiped unashamedly. 
 
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">

@@ -1,4 +1,3 @@
-
 import { FaBible, FaSchool, FaChalkboardTeacher, FaPenAlt } from "react-icons/fa";
 
 const features = [
@@ -27,25 +26,29 @@ export default function About() {
     <div id="about" className="py-24 bg-white sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-olive-500">Personal, Christ Centered Education</h2>
+          <h2 className="text-base font-semibold leading-7 text-olive-600">Personal, Christ Centered Education</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Join us in our mission to provide a personal, Christ centered education.
+             Join us in our mission to provide a personal, Christ centered education.
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            “You shall teach them diligently to your children, and shall talk of them when you sit in your house, when you walk by the way, when you lie down, and when you rise up.”  <span className="font-semibold">Deuteronomy 6:7</span> 
+            <span className="italic">“You shall teach them diligently to your children, and shall talk of them when you sit in your house, when you walk by the way, when you lie down, and when you rise up.” </span>
+            </p>
+            <p>
+            <span className="font-semibold">Deuteronomy 6:7</span> 
           </p>
         </div>
-        <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-none">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 rounded-lg bg-olive-500">
-                    <feature.icon className="w-6 h-6 text-white" aria-hidden="true" />
-                  </div>
+              <div key={feature.name} className="flex flex-col">
+                <dt className="flex items-center text-base font-semibold leading-7 text-gray-900 gap-x-3">
+                  <feature.icon className="flex-none w-5 h-5 text-olive-600" aria-hidden="true" />
                   {feature.name}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
+                <dd className="flex flex-col flex-auto mt-4 text-base leading-7 text-gray-600">
+                  <p className="flex-auto">{feature.description}</p>
+                  
+                </dd>
               </div>
             ))}
           </dl>

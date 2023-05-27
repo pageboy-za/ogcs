@@ -100,11 +100,11 @@ export default function Hero() {
         <div className="px-6 py-32 mx-auto max-w-7xl sm:py-40 lg:px-8">
           <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-              Our vision is to see a Christ centered school planted in the heart of Cambrideshire.
+              Our vision is to see a Christ centered school planted in the heart of Cambridgeshire.
             </h1>
             <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg leading-8 text-gray-600">
-               The Olive Grove Christian School is a independent school in Cambridgeshire, that puts Jesus at the center of it all.  
+               The Olive Grove Christian School is an independent school in Cambridgeshire, that puts Jesus at the centre of it all.  
               </p>
               <div className="flex items-center mt-10 gap-x-6">
                 <a
@@ -114,7 +114,7 @@ export default function Hero() {
                  Follow our journey
                 </a>
                 <a href="/#about" className="text-sm font-semibold leading-6 text-gray-900">
-                  Read more <span aria-hidden="true">→</span>
+                  Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function Hero() {
             className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
             width={1587}
             height={1058}
-            src={'/images/photo-1604882737321-e6937fd6f519.avif'}
+            src={'/images/photo-1604882737321-e6937fd6f519.webp'}
             alt=""
             priority 
           />
