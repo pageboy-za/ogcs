@@ -32,31 +32,23 @@ export default function Vision() {
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="flex-none w-5 h-5 mt-1 text-olive-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Christ First.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">Christ First.</strong> 
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="flex-none w-5 h-5 mt-1 text-olive-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Quality education</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">Quality education</strong> 
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="flex-none w-5 h-5 mt-1 text-olive-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Priortising Children</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">Priortising Children</strong> 
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
+             
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900"></h2>
               <p className="mt-6">
                 The need is there and we believe God has called us to be a way in which that need may be fulfilled here in Cambridge.

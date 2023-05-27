@@ -8,7 +8,7 @@ import Image from 'next/image'
 const navigation = [
   { name: 'About', href: '#about' },
   { name: 'Vision', href: '#vision' },
-  { name: 'Support Us', href: '#' }
+
 ]
 
 export default function Hero() {
@@ -100,11 +100,11 @@ export default function Hero() {
         <div className="px-6 py-32 mx-auto max-w-7xl sm:py-40 lg:px-8">
           <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-              Our vision is to see tha Christ centered school planted in the heart of Cambridshire.
+              Our vision is to see a Christ centered school planted in the heart of Cambrideshire.
             </h1>
             <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg leading-8 text-gray-600">
-               Olive Grove Christian School is a private school in Cambridge, that puts Jesus at the center of it all.  
+               The Olive Grove Christian School is a independent school in Cambridgeshire, that puts Jesus at the center of it all.  
               </p>
               <div className="flex items-center mt-10 gap-x-6">
                 <a
