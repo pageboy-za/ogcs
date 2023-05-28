@@ -3,12 +3,14 @@ import Image from 'next/image'
 
 export default function Vision() {
   return (
+    <div className="py-16 mx-auto max-w-12xl sm:px-6 lg:px-8">
+
     <div id="vision" className="relative mb-4 bg-white">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
             <Image
-              className="absolute inset-0 object-cover w-full h-full rounded-r-2xl bg-gray-50"
+              className="absolute inset-0 object-cover w-full h-full rounded-2xl bg-gray-50"
               height={3413}
                 width={2560}
               src="/images/photo-1663866702581-a9712aed5c93.webp"
@@ -57,6 +59,7 @@ export default function Vision() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

@@ -4,17 +4,11 @@ import { JSX, SVGProps } from "react"
 
 
 const navigation = {
-  solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+  email: [
+    { name: process.env.NEXT_PUBLIC_EMAIL , href: process.env.NEXT_PUBLIC_EMAIL_HREF },
   ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+  phone: [
+    { name: process.env.NEXT_PUBLIC_PHONE, href: process.env.NEXT_PUBLIC_PHONE_HREF },
   ],
   company: [
     { name: 'About', href: '#' },
@@ -24,7 +18,6 @@ const navigation = {
     { name: 'Partners', href: '#' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
     { name: 'Privacy', href: '#' },
     { name: 'Terms', href: '#' },
   ],
@@ -80,13 +73,13 @@ const navigation = {
   ],
 }
 
-export default function Example() {
+export default function Footer() {
   return (
     <footer className="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <Image
                   alt="Olive Grove Christian School"
@@ -96,6 +89,34 @@ export default function Example() {
                   src={'/images/olive-grove-sml.png'}
                 />
         </div>
+        <div className="grid grid-cols-1 gap-16 mt-16 xl:col-span-2 xl:mt-8">
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Email</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation.email.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-10 md:mt-0">
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Phone</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation.phone.map((item) => (
+                    <li key={item.name}>
+                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            </div>
         <div className="pt-8 mt-8 border-t border-gray-900/10 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
             {navigation.social.map((item) => (

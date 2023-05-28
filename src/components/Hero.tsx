@@ -97,13 +97,13 @@ export default function Hero() {
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
           aria-hidden="true"
         />
-        <div className="px-6 py-32 mx-auto max-w-7xl sm:py-40 lg:px-8">
+        <div className="px-6 py-16 mx-auto max-w-7xl sm:py-40 lg:px-8">
           <div className="max-w-2xl mx-auto lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-            <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 max-w-8xl sm:text-6xl lg:col-span-2 xl:col-auto">
               Our vision is to see a Christ centered school planted in the heart of Cambridgeshire.
             </h1>
             <div className="max-w-xl mt-6 lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p className="text-lg leading-8 text-gray-600">
+              <p className="text-2xl leading-8 text-gray-600">
                The Olive Grove Christian School is an independent school in Cambridgeshire, that puts Jesus at the centre of it all.  
               </p>
               <div className="flex items-center mt-10 gap-x-6">
