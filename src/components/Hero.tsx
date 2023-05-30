@@ -92,9 +92,9 @@ export default function Hero() {
           </Dialog.Panel>
         </Dialog>
       </header>
-      <div className="relative overflow-hidden isolate bg-gradient-to-b from-indigo-100/20 pt-14">
+      <div className="relative overflow-hidden isolate bg-gradient-to-b from-olive-100/20 pt-14">
         <div
-          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
+          className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-olive-800/10 ring-1 ring-olive-50 sm:-mr-80 lg:-mr-96"
           aria-hidden="true"
         />
         <div className="px-6 py-16 mx-auto max-w-7xl sm:py-40 lg:px-8">
