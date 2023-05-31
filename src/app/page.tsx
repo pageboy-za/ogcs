@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Footer from '@/components/Footer'
-import Newsletter from '@/components/Newsletter'
+import Newsletter from '@/components/Newsletter2'
 import Vision from '@/components/Vision'
 import { Metadata } from 'next';
 import Spacer from '@/components/spacer'
