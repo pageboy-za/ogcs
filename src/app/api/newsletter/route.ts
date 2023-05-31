@@ -31,10 +31,10 @@ export async function POST(request:Request) {
       return NextResponse.json({ res: 'Success!' });
     } else {
       console.error('Failed to subscribe to ConvertKit');
-      return NextResponse.error(new Error('Failed to subscribe'));
+      throw new Error('Failed to subscribe');
     }
   } catch (error) {
     console.error('Error occurred while subscribing to ConvertKit:', error);
-    return NextResponse.error(new Error('Error occurred while subscribing'));
+    throw new Error('Error occurred while subscribing');
   }
 }
