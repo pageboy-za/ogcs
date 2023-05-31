@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import fetch from 'node-fetch';
 
 
-export async function POST(request) {
+export async function POST(request:Request) {
   const { fullname, email } = await request.json();
 
   // Define your ConvertKit API endpoint and API key
