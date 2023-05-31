@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import fetch from 'node-fetch';
 
 
-export async function POST(request: { json: () => PromiseLike<{ fullname: any; email: any; }> | { fullname: any; email: any; }; }) {
+export async function POST(request) {
   const { fullname, email } = await request.json();
 
   // Define your ConvertKit API endpoint and API key
